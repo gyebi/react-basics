@@ -8,6 +8,6 @@ function About(){
             
         </div>
     );
-}
+};
 
-export default About
+export default About;

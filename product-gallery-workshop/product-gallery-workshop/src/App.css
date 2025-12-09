@@ -1,0 +1,56 @@
+.app {
+  text-align: center;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  color: #222;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 2px 2px 5px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.filters button {
+  color: #222;
+  margin: 0 .4rem;
+  padding: .4rem .8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  cursor: pointer;
+}
+
+.filters .active {
+  background: #222;
+  color: #fff;
+}
+
+button {
+  font-size: 1.4rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+input {
+  padding: .4rem .8rem;
+  margin-bottom: 1rem;
+  width: 50%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
