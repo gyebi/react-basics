@@ -20,7 +20,7 @@ function App(){
 
     <Ricefilter/>
 
-<div className = "recipe-grid">
+    <div className = "recipe-grid">
     {sampleRecipes.map((recipe)=>(
       <RecipeCard
         image={recipe.image}
